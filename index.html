@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cantarell:wght@400;700&family=Outfit:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/dist/css/style.css" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | NFT preview card component</title>
+  </head>
+  <body>
+    <main class="wrapper">
+      <article class="nft-card">
+        <figure>
+          <img
+            class="nft-card__image"
+            src="./images/image-equilibrium.jpg"
+            alt="Equilibrium"
+          />
+        </figure>
+        <a href="#"><h1 class="nft-card__link">Equilibrium #3429</h1></a>
+        <p class="nft-card__text">
+          Our Equilibrium collection promotes balance and calm.
+        </p>
+        <p class="nft-card__price">0.041 ETH</p>
+        <p class="nft-card__info"></p>
+      </article>
+      <footer class="nft-card__footer">
+        <figure>
+          <img src="./images/image-avatar.png" alt="Author" />
+          <figcaption>
+            Creation of <span class="nft-card__author">Jules Wyvern</span>
+          </figcaption>
+        </figure>
+      </footer>
+    </main>
+  </body>
+</html>
