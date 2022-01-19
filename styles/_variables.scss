@@ -1,0 +1,26 @@
+//Colors
+$softBlue: hsl(215, 51%, 70%);
+$cyan: hsl(178, 100%, 50%);
+$mainBgColor: hsl(217, 54%, 11%);
+$cardBgcolor: hsl(216, 50%, 16%);
+$lineColor: hsl(215, 32%, 27%);
+$white: hsl(0, 0%, 100%);
+$cyanLight: hsla(178, 100%, 50%, 0.5);
+
+//Font weights
+$light: 300;
+$regular: 400;
+$semi-bold: 600;
+
+//Mixins
+@mixin media-s {
+  @media screen and (min-width: 375px) {
+    @content;
+  }
+}
+
+@mixin media-lg {
+  @media screen and (min-width: 1440px) {
+    @content;
+  }
+}
