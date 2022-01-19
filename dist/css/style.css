@@ -144,10 +144,6 @@ hr {
           align-items: center;
 }
 
-.nft-card {
-  position: relative;
-}
-
 .nft-card__footer {
   margin-top: 1rem;
   display: -webkit-box;
