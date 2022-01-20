@@ -1,5 +1,5 @@
 html {
-  font-size: 100%; // more accessible to the user
+  font-size: 100%; // more accessible to users
   box-sizing: border-box;
 }
 
@@ -31,6 +31,11 @@ body {
 
 figure {
   margin: auto;
+}
+
+span {
+  display: flex;
+  align-items: center;
 }
 
 hr {

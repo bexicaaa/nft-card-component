@@ -11,16 +11,3 @@ $cyanLight: hsla(178, 100%, 50%, 0.5);
 $light: 300;
 $regular: 400;
 $semi-bold: 600;
-
-//Mixins
-@mixin media-s {
-  @media screen and (min-width: 375px) {
-    @content;
-  }
-}
-
-@mixin media-lg {
-  @media screen and (min-width: 1440px) {
-    @content;
-  }
-}
