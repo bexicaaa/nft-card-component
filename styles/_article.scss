@@ -56,6 +56,11 @@
     &:hover {
       color: $cyan;
     }
+
+    h1 {
+      font-size: 1.4375rem;
+      margin: 0;
+    }
   }
 
   &__text {
@@ -85,4 +90,9 @@
     color: $softBlue;
     margin-left: 0.6rem;
   }
+}
+
+section {
+  display: flex;
+  align-items: center;
 }

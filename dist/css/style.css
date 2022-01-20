@@ -41,15 +41,6 @@ figure {
   margin: auto;
 }
 
-span {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
 hr {
   background-color: #2f415b;
   width: 100%;
@@ -117,6 +108,11 @@ hr {
   color: #00fff7;
 }
 
+.nft-card__link h1 {
+  font-size: 1.4375rem;
+  margin: 0;
+}
+
 .nft-card__text {
   margin-right: 0.4rem;
   font-size: 0.875rem;
@@ -150,6 +146,15 @@ hr {
   font-size: 0.875rem;
   color: #8bacda;
   margin-left: 0.6rem;
+}
+
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .nft-card__footer {
